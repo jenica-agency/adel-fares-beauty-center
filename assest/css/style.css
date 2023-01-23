@@ -1,13 +1,26 @@
 body{
     background-color: #fff3ea;
     font-family: 'Poppins', sans-serif;
+    height: 1000px;
 }
 .custom-nav{
     background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
+.scroll-nav{
+    background-color: #e2979d;
+    position: fixed;
+    width: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 .custom-a-nav{
     color: gray;
 }
-.custom-cover-img{
-    
+.custom-phone-icon-nav{
+    color: rgb(12, 165, 12);
 }
