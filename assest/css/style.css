@@ -4,7 +4,7 @@ body{
     height: 1000px;
 }
 .custom-nav{
-    background-color: transparent;
+    background-color: #fff3ea;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -40,6 +40,34 @@ body{
 .sec-cover{
     height: 80vh;
 }
+.div-cover{
+    height: 100%
+}
+.row-cover{
+    height: 100%;
+}
+.left-cover{
+    margin-top: 80px;
+}
+.left-cover .content h4{
+    opacity: 0.8;
+}
+.left-cover .content h1
+{
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: #e2979d;
+    margin-top: 25px;
+}
+.left-cover .content{
+    color: rgb(111, 109, 109);
+    font-family: 'Montserrat', sans-serif;
+}
+.left-cover .content p {
+    margin-top: 20px;
+    line-height: 1.9;
+}
 .cover-image
 {
     max-width: 500px;
@@ -50,12 +78,24 @@ body{
         position: relative;
         top: 10%;
     }
-   
-      
 }
-@media only screen and (max-width : 991px) and (min-width : 768px) {
-    /* .sec-cover{
-        position: relative;
-        top: 10%;
-    } */
+@media only screen and (max-width : 1399px) and (min-width : 992px){
+    .left-cover .content h1{
+        font-size: 80px;
+    }
+}
+@media only screen and (max-width : 767px) and (min-width : 300px) {
+    .left-cover .content h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (max-width : 575px) and (min-width : 300px) {
+    .left-cover .content{
+        font-size: 16px;
+        text-align: center;
+    }
 }
