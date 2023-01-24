@@ -4,7 +4,7 @@ function changeNavcColor (){
     let logoImg = document.querySelector(".logo-img");
     console.log(logoImg);
     let scroll = window.scrollY;
-    if(scroll < 100){
+    if(scroll < 500){
         navbar.classList.remove("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo-black.png");
       
