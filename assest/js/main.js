@@ -1,4 +1,5 @@
 
+// function change navbar background on scroll 
 function changeNavcColor (){
     let navbar = document.querySelector(".custom-nav");
     let logoImg = document.querySelector(".logo-img");

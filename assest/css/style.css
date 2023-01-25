@@ -5,6 +5,7 @@ body{
     background-color: #fff3ea;
     font-family: 'Poppins', sans-serif;
     height: 2000px;
+    overflow-x: hidden;
 }
 .custom-nav{
     background-color: #fff3ea;
@@ -101,6 +102,12 @@ body{
         position: relative;
         top: 10%;
     }
+    body {
+        overflow-x: hidden;
+    }
+    html{
+        overflow-x: hidden;
+    }
 }
 @media only screen and (max-width : 1399px) and (min-width : 992px){
     .left-cover .content h1{
@@ -122,3 +129,4 @@ body{
         text-align: center;
     }
 }
+
