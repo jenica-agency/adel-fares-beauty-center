@@ -16,4 +16,6 @@ function changeNavcColor (){
 }
 window.addEventListener('scroll', changeNavcColor);
 
+// animation function on scroll 
+
 
