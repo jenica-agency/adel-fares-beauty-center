@@ -26,6 +26,7 @@
     
     <!-- links animation wow  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assest/css/animation.css">
 
     <!-- links custom style css  -->
     <link rel="stylesheet" href="./assest/css/style.css">
@@ -42,23 +43,23 @@
                 <a class="navbar-brand" href="#">
                   <img src="./assest/imgs/logo-black.png" alt="Bootstrap" width="40" height="45" class="logo-img">
                 </a>
-                <button  class ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button  class ="navbar-toggler custom-nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon custom-nav-button"></span>
                 </button>
                 <div class="collapse navbar-collapse color-a-change" id="navbarText">
                     
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link custom-a-nav" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link custom-a-nav"  href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link custom-a-nav "  href="#">Features</a>
+                        <a class="nav-link custom-a-nav "  href="#about"> About </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link custom-a-nav" href="#">Pricing</a>
+                        <a class="nav-link custom-a-nav" href="#our-services "> Our Services </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link custom-a-nav" href="#">Pricing</a>
+                        <a class="nav-link custom-a-nav" href="#">contact us </a>
                       </li>
                     </ul>
                     <div class="center-gmail ms-auto">
@@ -98,7 +99,7 @@
 
     <!-- #######################  start slider one have icons ####################33 -->
 
-    <section class="slider-one">
+    <section class="slider-one" id="about">
       <div class="container">
         <div class="row  animation-class" >
           <div class="slider-one-left col-lg-6 col-md-12 col-sm-12 ">
@@ -120,27 +121,27 @@
             <div class="row">
               <div class="row slider-one-icon">
                 <div class="left col-lg-6 col-md-6 col-sm-12 pb-3 ">
-                  <i class="fa-regular fa-clock"></i>
+                  <i class="fa-solid fa-calendar-days"></i>
                   <h6 class="d-inline-block ps-3"> 12 H per day </h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
-                  <i class="fa-solid fa-hand-holding-hand"></i>
+                  <i class="fa-solid fa-hand-holding-heart"></i>
                   <h6 class="d-inline-block ps-3"> Care Products </h6>
                 </div>
               </div>
               <div class="row slider-one-icon">
                 <div class="left col-lg-6 col-md-6 col-sm-12 pb-3">
-                  <i class="fa-regular fa-clock"></i>
+                  <i class="fa-solid fa-scissors"></i>
                   <h6 class="d-inline-block ps-3"> equipment </h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
-                  <i class="fa-solid fa-hand-holding-hand"></i>
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
                   <h6 class="d-inline-block ps-3"> 	Offers  </h6>
                 </div>
               </div>
               <div class="row slider-one-icon">
                 <div class="left col-lg-6 col-md-6 col-sm-12 pb-3">
-                  <i class="fa-regular fa-clock"></i>
+                  <i class="fa-solid fa-spa"></i>
                   <h6 class="d-inline-block ps-3"> Spa and skin care </h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
@@ -157,39 +158,44 @@
    <!-- ###################### end slider one #################### -->
 
    <!--#################### start slider two our services ################ -->
-   <div class="slider-two ">
+   <div class="slider-two" id="our-services">
     <div class="container">
-      <div class="row ps-2 pe-2">
-        <h3 class="mb-3">our services </h3>
-        <div class="slider-two-left col-lg-3">
-          <ul class="tabs">
+      <div class="row ps-2 pe-2 slider-two-row">
+        <h2 class="mb-3"> our services </h2>
+        <div class="slider-two-left col-lg-3 col-md-4 ">
+          <ul class="tabs ps-4">
             <li class="active " data-content=".hair-service">
-              hair services 
-              <i class="fa-solid fa-angle-down"></i>
+                <span class="pe-2"> hair services </span>  
+              <i class="fa-solid fa-angle-down arrow down"></i>
             </li>
             <li class=" pt-3" data-content=".hair-treatment">
-              hair treatment
-              <i class="fa-solid fa-angle-down"></i>
+              <span class="pe-2"> hair treatment </span> 
+              <i class="fa-solid fa-angle-down down arrow"></i>
             </li>
             <li class=" pt-3" data-content=".hair-extension">
-              hair extension
-              <i class="fa-solid fa-angle-down"></i>
+              <span class="pe-2"> hair extension </span> 
+              <i class="fa-solid fa-angle-down down arrow"></i>
             </li>
             <li class=" pt-3" data-content=".Eye-extension">
-              Eye extension
-              <i class="fa-solid fa-angle-down"></i>
+              <span class="pe-2"> Eye extension </span> 
+              <i class="fa-solid fa-angle-down down  arrow"></i>
             </li>
             <li class=" pt-3" data-content=".Skin-care">
-              Skin care
-              <i class="fa-solid fa-angle-down"></i>
+              <span class="pe-2">  Skin care </span> 
+              <i class="fa-solid fa-angle-down down arrow"></i>
+            </li>
+             <li class=" pt-3" data-content=".nail-service">
+              <span class="pe-2"> nail service </span>  
+              <i class="fa-solid fa-angle-down down arrow "></i>
             </li>
             <li class=" pt-3" data-content=".Spa-massage">
-              Spa and massage  
-              <i class="fa-solid fa-angle-down"></i>
+              <span class="pe-2"> Spa and massage </span>  
+              <i class="fa-solid fa-angle-down down arrow "></i>
             </li>
+           
           </ul>
         </div>
-        <div class="slider-two-right col-lg-9 content">
+        <div class="slider-two-right col-lg-9 col-md-8 content">
           <div class="row hair-service">
             <div class="slider-two-right-content col-lg-8">
               <h4> Hair services </h4>
@@ -200,84 +206,162 @@
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/hair-service.jpg" alt=" image not found ">
             </div>
           </div>
           <div class="row hair-treatment">
             <div class="slider-two-right-content col-lg-8">
-              <h4> hair-treatment </h4>
+              <h4> hair treatment </h4>
               <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
+                the salon hair treatment services include all kinds of procedures, which work else and effectively,
+                we provide three types of hair treatments protein ,Argan oil and caviar. And when it comes to hair treatments we
+                 are mentioning the beauty of OLAPLEX, is it's all safe and hair and making it appear healthier.
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/hair-treatment.jpg" alt=" image not found ">
             </div>
           </div>
           <div class="row hair-extension">
             <div class="slider-two-right-content col-lg-8">
-              <h4> hair-extension </h4>
+              <h4> hair extension </h4>
               <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
+               Adel fares beauty salon is always looking to see the Luxury of Hair transformations,
+                 we have all the types of hair extensions crystal, ring, micro and double face, we are also providing hair extension for sale.
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/hair-extentions.jpg" alt=" image not found ">
             </div>
           </div>
           <div class="row Eye-extension">
             <div class="slider-two-right-content col-lg-8">
-              <h4>Eye-extension </h4>
+              <h4>Eye extension </h4>
               <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
+                Add the right quantum of flirtation to brighten your eyes with Adel Fares Beauty salon eyelash extensions with volume and perfection.
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/eye-extention1.jpg" alt=" image not found ">
             </div>
           </div>
           <div class="row Skin-care">
             <div class="slider-two-right-content col-lg-8">
-              <h4> Skin-care </h4>
+              <h4> Skin care </h4>
               <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
+                  At Adel Fares Beauty salon, our team have perfected “The Art of Waxing”.
+                  We ’ve streamlined our process to maximize your comfort, take up lower of your time, and leave you with smoother, longer- lasting results. So we offer waxing and sweet for your beautiful full body. 
+                  As cleansing the skin is an essential part of any skincare routine we also help you get cleansing epic sessions!
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/skin-care.jpg" alt=" image not found ">
+            </div>
+          </div>
+          <div class="row nail-service">
+            <div class="slider-two-right-content col-lg-8">
+              <h4> nail service </h4>
+              <p>
+                  All kinds of procedures for your hands and feet are here! Manicure and Pedicure, gel polish, hard gel and nail polish we also provide nail Installation.
+                   We are the perfect place to get all high-quality nail care services in a clean and welcoming atmosphere.
+              </p>
+            </div>
+            <div class="slider-two-right-img col-lg-4">
+              <img src="./assest/imgs/nail-service.jpg" alt=" image not found ">
             </div>
           </div>
           <div class="row Spa-massage">
             <div class="slider-two-right-content col-lg-8">
-              <h4> Spa-massage </h4>
+              <h4> Spa and massage </h4>
               <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
+                  All relaxation spa and massage in Adel Fares beauty salon it gives you an unwinding and stimulating atmosphere where you can enjoy various types of Hammam Aromatic and Moroccan,
+                   with the sense of refreshment and relaxation including steamer, our salon is working on your relaxing destination 
               </p>
             </div>
             <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/portrait-woman-with-facial-mask-half-face.jpg" alt=" image not found ">
+              <img src="./assest/imgs/spa-massage.jpg" alt=" image not found ">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   </div>
+   <!--################### end our services ####################### -->
+   
+   <div class="slider-three-subscribe">
+    <div class="container subscribe-content">
+      <div class="row">
+        <div class="subscribe-left col-lg-5 col-md-6 col-sm-12">
+          <img src="./assest/imgs/subscribe-imge.png" alt="image not found">
+        </div>
+        <div class="subscribe-right col-lg-7 col-md-6 col-sm-12">
+          <div class="row subscribe-content-left">
+            <div class="top-subscribe col-12">
+              <h4 class="h-one"> subscribe to our  </h4>
+              <h4 class="h-two"> newsletter </h4>
+            </div>
+            <div class="end-subscribe col-12">
+                <div class="group-input row mb-3">
+                    <input type="email" class="col-8" placeholder="enter your email"  >
+                    <button class="col-4" type="button" > send </button>
+                </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+      <div>
+        <ul class="circles4">
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+          <li><img src="./assest/imgs/1.png" alt="" /></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="circles5">
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+          <li><img src="./assest/imgs/11.png" alt="" /></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="circles6">
+          <li>ADEL</li>
+          <li>FARES</li>
+          <li>CENTER</li>
+          <li>BEAUTY</li>
+          <li>SPA</li>
+          <li>ADEL</li>
+          <li>SPA</li>
+          <li>FARES</li>
+          <li>HAIR</li>
+          <li>CARE</li>
+        </ul>
+      </div>
    </div>
+  
 
     <!-- links animation wow js  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
       new WOW().init();
+      const submail_Id = "submail";
     </script>
 
     <!-- links bootstarp js  -->
