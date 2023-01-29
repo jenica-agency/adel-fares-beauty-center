@@ -7,8 +7,8 @@ html{
 body{
     background-color: #fff3ea;
     font-family: 'Poppins', sans-serif;
-    height: 4000px;
     overflow-x: hidden;
+    color: #141414;
 }
 .custom-nav{
     background-color: #fff3ea;
@@ -46,9 +46,22 @@ body{
 .custom-phone-icon-nav{
     color: #13b604;
 }
-.sec-cover{
-    margin-top: 11%;
+.icon-btn{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 243, 234)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
 }
+.original-btn{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.nav-btn{
+    border-color: rgb(255, 243, 234);
+}
+/********************************************************/
+.sec-cover{
+    margin-top: 10%;
+    position: relative;
+}
+
 .div-cover{
     height: 100%
 }
@@ -79,6 +92,7 @@ body{
 }
 .right-cover {
    text-align: center;
+   position: relative;
 }
 .cover-image
 {
@@ -88,10 +102,54 @@ body{
     border-top-left-radius: 100% 70%;
     border-top-right-radius: 100% 70%;
 }
+.leave-up{
+    width: 200px;
+    position: absolute;
+    top: -80px;
+    z-index: 99;
+    transform: rotate(96deg);
+    -webkit-transform: rotate(96deg);
+    -moz-transform: rotate(96deg);
+    -ms-transform: rotate(96deg);
+    -o-transform: rotate(96deg);
+    right: -18%;
+}
+.leave-small{
+    width: 70px;
+    display: none;
+    position: absolute;
+    top: 10%;
+}
+.leave-small1 {
+    width: 100px;
+    display: none;
+    position: absolute;
+    bottom: 15%;
+    left: -20px;
+    transform: rotate(-73deg);
+    -webkit-transform: rotate(-73deg);
+    -moz-transform: rotate(-73deg);
+    -ms-transform: rotate(-73deg);
+    -o-transform: rotate(-73deg);
+}
+.leave-small2{
+        width: 110px;
+        display: none;
+        position: absolute;
+        bottom: 33%;
+        right: -20px;
+        transform: rotate(36deg);
+        -webkit-transform: rotate(36deg);
+        -moz-transform: rotate(36deg);
+        -ms-transform: rotate(36deg);
+        -o-transform: rotate(36deg);
+}
 /* ********************************************* */
 .slider-one{
     margin-top: 10%;
+    position: relative;
 }
+
 .slider-one-right{
     padding-left: 35px;
 }
@@ -139,8 +197,7 @@ body{
 /**********************************************************/
 
 .slider-two{
-    position: relative;
-    top: 6%;
+    
     color: #ffffff;
     position: relative;
     top: 6%;
@@ -189,10 +246,23 @@ body{
 .content > div:not(:first-child) {
     display: none;
   }
+.arrow-down{
+    transition: transform 0.1s ease-in-out;
+    -webkit-transition: transform 0.1s ease-in-out;
+    -moz-transition: transform 0.1s ease-in-out;
+    -ms-transition: transform 0.1s ease-in-out;
+    -o-transition: transform 0.1s ease-in-out;
+}
+.rotate{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
   /* ******************************************/
 .slider-three-subscribe{
     position: relative;
-    top: 6%;
 }
 .subscribe-content{
     padding-top: 5%;
@@ -268,7 +338,8 @@ body{
     width: 100%;
     padding: 40px 0px;
     position: relative;
-    top: 9%;
+    margin-bottom: 35px;
+   
 }
 .slide-content {
     margin: 0 40px;
@@ -345,17 +416,16 @@ body{
     background-color: #e2979d;
 }
 .end-birder{
-    position: relative;
-    top: 13%;
     width: 60%;
     margin: auto;
     color: #e2979d;
     
 }
+/***************************************************/
 .slider-five-map{
-    position: relative;
-    top: 15%;
-    
+    position: relative;  
+    margin-top: 30px;  
+    margin-bottom: 50px;
 }
 .slider-five-map .container {
     border-radius: 15px;
@@ -363,15 +433,16 @@ body{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+   
 }
 .map-left iframe{
-    width:100%;
+    width:75%;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    height: 100%;
+    height: 350px;
 }
 .map-right .top-map h4,
 .middle-map h4,
@@ -383,6 +454,37 @@ body{
 .middle-map a,
 .buttom-map a {
     font-family: 'Montserrat', sans-serif;
+}
+.middle-map a,
+.buttom-map a{
+    text-decoration: none;
+    color: #413a3a;
+}
+.buttom-map a{
+    font-size: 25px;
+}
+/*****************************************************/
+footer{
+    background-color: #e2979d;
+}
+.left-footer{
+    padding: 10px 0px;
+}
+.right-footer{
+    text-align: end ;
+    padding-top: 10px;
+}
+.right-footer a{
+    color: #ffebdc;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 5px;
+}
+.middele-footer{
+    font-size:18px;
+    padding: 15px 0px;
+    color: #ffebdc;
+    text-align: center;
 }
 /* responsive css  */
 
@@ -409,6 +511,9 @@ body{
     .slider-one-icon .left h6 
    {
       font-size: 18px;
+   }
+   .leave-up{
+     right: -120px;
    }
 
 }
@@ -437,7 +542,7 @@ body{
    {
       font-size: 18px;
    }
-
+  
 }
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     .left-cover .content h1{
@@ -476,25 +581,45 @@ body{
         width: 80%;
         margin-top: 10% ;
     }
-};
-@media only screen and (max-width: 768px) and (min-width: 300px){
-    .our-team-left,
-    .our-team-right{
-        text-align: center;
-    }
+        .leave-up {
+            right: -160px;
+            transform: rotate(97deg)        ;
+            -webkit-transform: rotate(97deg)        ;
+            -moz-transform: rotate(97deg)        ;
+            -ms-transform: rotate(97deg)        ;
+            -o-transform: rotate(97deg)        ;
 }
+};
 
 @media screen and (max-width: 768px) {
     .slide-content {
         margin: 0 10px;
     }
-
     .swiper-navBtn {
         display: none;
     }
+   
 }
-/* animation */
+@media only screen and (max-width : 768px) and (min-width : 300px){
+    .footer-row,
+        .footer-row .right-footer {
+            text-align: center;
+        }
+    
+        .map-left iframe {
+            width: 100%;
+        }
+        .leave-up{
+            display: none;
+        }
+        .leave-small,
+        .leave-small1,
+        .leave-small2{
+            display: flex;
+        }
+}
 
+/* animation */
 
   
   

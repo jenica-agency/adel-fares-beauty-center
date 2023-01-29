@@ -3,15 +3,21 @@
 function changeNavcColor (){
     let navbar = document.querySelector(".custom-nav");
     let logoImg = document.querySelector(".logo-img");
+    let iconBtn = document.querySelector(".navbar-toggler .navbar-toggler-icon");
+    let btn = document.querySelector(".navbar-toggler");
     // console.log(logoImg);
     let scroll = window.scrollY;
     if(scroll < 500){
         navbar.classList.remove("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo-black.png");
-      
+        // iconBtn.classList.add(".original-btn");
+        // btn.classList.add(".navbar-toggler");
     }else{
         navbar.classList.add("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo.png");
+        //   iconBtn.classList.add("icon-btn");
+        // btn.classList.add(".nav-btn");
+       
     }
 }
 window.addEventListener('scroll', changeNavcColor);
@@ -26,21 +32,26 @@ let divsArray = Array.from(divs);
 
 tabsArray.forEach((ele) => {
   ele.addEventListener("click", function (e) {
-    // console.log(ele);
+    const arrow = this.querySelector(".arrow-down");
     tabsArray.forEach((ele) => {
       ele.classList.remove("active");
+     ele.querySelector(".arrow-down").classList.remove("rotate");
+      
     });
+      
     e.currentTarget.classList.add("active");
+    arrow.classList.toggle("rotate");
     divsArray.forEach((div) => {
       div.style.display = "none";
+    
     });
-    // console.log(e.currentTarget.dataset.content);
+  
     document.querySelector(e.currentTarget.dataset.content).style.display = "flex";
 
   });
 });
 
-// arrow function 
+// swiper function 
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
@@ -71,5 +82,4 @@ var swiper = new Swiper(".slide-content", {
         },
     },
   });
-
 
