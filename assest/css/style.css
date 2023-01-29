@@ -327,6 +327,8 @@ body{
     background-color: #e2979d;
     color: #fff3ea;
     font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .group-input button:hover{
     transform: scale(1.05);
