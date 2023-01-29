@@ -1,102 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- links font awesome icon  -->
-    <link rel="stylesheet" href="./assest/fontawesome-free-6.2.1-web/css/all.min.css">
-    <link rel="stylesheet" href="./assest/fontawesome-free-6.2.1-web/css/fontawesome.min.css">
-    <link rel="stylesheet" href="./assest/fontawesome-free-6.2.1-web/js/all.min.js">
+    <link
+      rel="stylesheet"
+      href="./assest/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assest/fontawesome-free-6.2.1-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assest/fontawesome-free-6.2.1-web/js/all.min.js"
+    />
 
     <!-- links bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
     <!-- links fonts of text  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- swiper links  -->
-    <link rel="stylesheet" href="./assest/css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="./assest/css/swiper-bundle.min.css" />
+
     <!-- links animation wow  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="./assest/css/animation.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assest/css/animation.css" />
 
     <!-- links custom style css  -->
-    <link rel="stylesheet" href="./assest/css/style.css">
-    <link rel="icon" href="./assest/imgs/logo-black.png">
-    <title> Adel Fares  </title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <link rel="icon" href="./assest/imgs/logo.png" />
+    <title>ADEL FARES BEAUTY CENTER</title>
+  </head>
 
-</head>
-
-<body class="custom-body">
-  <!--######################## start navbar ############################### -->
+  <body class="custom-body">
+    <!--######################## start navbar ############################### -->
     <header>
-        <nav class="navbar navbar-expand-lg custom-nav fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="./assest/imgs/logo-black.png" alt="adel fares" width="40" height="45" class="logo-img">
+      <nav class="navbar navbar-expand-lg custom-nav fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assest/imgs/logo-black.png"
+              alt="adel fares"
+              width="40"
+              height="45"
+              class="logo-img"
+            />
+          </a>
+          <button
+            class="navbar-toggler custom-nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon custom-nav-button"></span>
+          </button>
+          <div class="collapse navbar-collapse color-a-change" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link custom-a-nav" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-a-nav" href="#about"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-a-nav" href="#our-services ">
+                  Our Services
                 </a>
-                <button  class ="navbar-toggler custom-nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon custom-nav-button"></span>
-                </button>
-                <div class="collapse navbar-collapse color-a-change justify-content-center" id="navbarText">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link custom-a-nav"  href="#home">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link custom-a-nav "  href="#about"> About </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link custom-a-nav" href="#our-services "> Our Services </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link custom-a-nav" href="#contact-us">contact us </a>
-                      </li>
-                    </ul>
-                  </div>
-                   <i class="fa-solid fa-phone custom-phone-icon-nav "></i>
-                   <span class="custom-a-nav-phone "> +20 - 1289967698 </span>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-a-nav" href="#contact-us">Contact </a>
+              </li>
+            </ul>
+            <div class="center-gmail ms-auto">
+              <i class="fa-solid fa-phone custom-phone-icon-nav"></i>
+              <span class="custom-a-nav"> +20 - 1289967698 </span>
+
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--############################# end navbar ########################## -->
     <!-- ######################### start cover section ######################## -->
     <section class="sec-cover" id="home">
-      
-       <div class="container div-cover">
+      <div class="container div-cover">
         <div class="row row-cover">
-          <div class="left-cover col-lg-7 col-md-6 col-sm-12 animate__animated animate__slideInLeft" data-woow-ofset="100">
-                <div class="content " >
-                  <h4>your beauty , our mission </h4>
-                  <h1 class=""> adel fares </h1>
-                  <p class="">
-                    Adel Fares Beauty Salon celebrates beauty and heartiness of all women in a relaxing and inviting atmosphere, our team work simply to meet your requirements and your prospects, we make sure you leave with happiness, we are one of the first natural hair specialists in Egypt, 
-                    the salon prides itself on creating the ultimate you in a contemporary, inspired atmosphere unlike any other.
-                  </p>
-                </div>
+
+          <div class="left-cover col-lg-7 col-md-6 col-sm-12">
+            <div class="content animate__animated animate__slideInLeft">
+              <h4>Your beauty , Our mission</h4>
+              <h1 class="">adel fares</h1>
+              <p class="">
+                Adel Fares Beauty Salon celebrates beauty and heartiness of all
+                women in a relaxing and inviting atmosphere, our team work
+                simply to meet your requirements and your prospects, we make
+                sure you leave with happiness, we are one of the first natural
+                hair specialists in Egypt, the salon prides itself on creating
+                the ultimate you in a contemporary, inspired atmosphere unlike
+                any other.
+              </p>
+            </div>
           </div>
-          <div class="right-cover col-lg-5 col-md-6 col-sm-12  animate__animated animate__slideInRight" data-woow-ofset="100">
-         
-              <img src="./assest/imgs/incover3.png" alt="image not found" class="cover-image" >
-               <img src="./assest/imgs/leave3.png" alt="image not found" class="leave-up">
-               <img src="./assest/imgs/leave1.png" alt="leave not found " class="leave-small">
-              <img src="./assest/imgs/leave1.png" alt="leave not found " class="leave-small1">
-              <img src="./assest/imgs/leave1.png" alt="leave not found " class="leave-small2">
+          <div class="right-cover col-lg-5 col-md-6 col-sm-12">
+            <img
+              src="./assest/imgs/incover3.png"
+              alt="image not found"
+              class="cover-image animate__animated animate__slideInRight"
+            />
+            <img
+              src="./assest/imgs/leave3.png"
+              alt="image not found"
+              class="leave-up"
+            />
+            <img
+              src="./assest/imgs/leave1.png"
+              alt="leave not found "
+              class="leave-small"
+            />
+            <img
+              src="./assest/imgs/leave1.png"
+              alt="leave not found "
+              class="leave-small1"
+            />
+            <img
+              src="./assest/imgs/leave1.png"
+              alt="leave not found "
+              class="leave-small2"
+            />
+
           </div>
         </div>
-       </div>
-
+      </div>
     </section>
     <!--############################# end cover ############################# -->
 
@@ -104,217 +173,270 @@
 
     <section class="slider-one" id="about">
       <div class="container">
-        <div class="row" >
-          <div class="slider-one-left col-lg-6 col-md-12 col-sm-12 ">
+
+        <div class="row animation-class">
+          <div class="slider-one-left col-lg-6 col-md-12 col-sm-12">
+
             <div class="imag-slider-one">
-              <img src="./assest/imgs/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-spa-resort.jpg" alt="sorry image spa not found">
+              <img
+                src="./assest/imgs/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-spa-resort.jpg"
+                alt="sorry image spa not found"
+              />
               <div class="icon-left-on-img">
                 <i class="fa-solid fa-circle-chevron-right"></i>
               </div>
             </div>
           </div>
-          <div class="slider-one-right col-lg-6 col-md-12 col-sm-12 mt-3 ">
-            <h4>
-              adel fares beauty salon - we are all about women services 
-            </h4>
+
+          <div class="slider-one-right col-lg-6 col-md-12 col-sm-12 mt-3">
+            <h4>Adel fares beauty salon - We are all about women services</h4>
+
             <p>
-              a place where you can find yourself by experienced and certified professionals are here to help you achieve the look you desire. 
-              we have the tools and services you need to create a stunning appearance. 
+              A place where you can find yourself by experienced and certified
+              professionals are here to help you achieve the look you desire. we
+              have the tools and services you need to create a stunning
+              appearance.
             </p>
             <div class="row">
               <div class="row slider-one-icon">
-                <div class="left col-lg-6 col-md-6 col-sm-12 pb-3 ">
+                <div class="left col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-calendar-days"></i>
-                  <h6 class="d-inline-block ps-3"> 12 H per day </h6>
+                  <h6 class="d-inline-block ps-3">12 H per day</h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-hand-holding-heart"></i>
-                  <h6 class="d-inline-block ps-3"> Care Products </h6>
+                  <h6 class="d-inline-block ps-3">Care Products</h6>
                 </div>
               </div>
               <div class="row slider-one-icon">
                 <div class="left col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-scissors"></i>
-                  <h6 class="d-inline-block ps-3"> Equipment </h6>
+                  <h6 class="d-inline-block ps-3">Professional Tools</h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-wand-magic-sparkles"></i>
-                  <h6 class="d-inline-block ps-3"> 	Offers   </h6>
+                  <h6 class="d-inline-block ps-3">Offers</h6>
+
                 </div>
               </div>
               <div class="row slider-one-icon">
                 <div class="left col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-spa"></i>
-                  <h6 class="d-inline-block ps-3"> Spa and skin care </h6>
+                  <h6 class="d-inline-block ps-3">Spa and skin care</h6>
                 </div>
                 <div class="right col-lg-6 col-md-6 col-sm-12 pb-3">
                   <i class="fa-solid fa-people-group"></i>
-                  <h6 class="d-inline-block ps-3"> Team of experts  </h6>
+                  <h6 class="d-inline-block ps-3">Team of experts</h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
-   <!-- ###################### end slider one #################### -->
+    <!-- ###################### end slider one #################### -->
 
-   <!--#################### start slider two our services ################ -->
-   <div class="slider-two mt-5" id="our-services">
-    <div class="container">
-      <div class="row ps-2 pe-2 slider-two-row">
-        <h2 class="mb-3"> our services </h2>
-        <div class="slider-two-left col-lg-3 col-md-4 ">
-          <ul class="tabs ps-4">
-            <li class="active " data-content=".hair-service " >
-                <span class="pe-2"> hair services </span>  
-              <i class="fa-solid fa-angle-down arrow  arrow-down rotate"></i>
-            </li>
-            <li class=" pt-3" data-content=".hair-treatment ">
-              <span class="pe-2"> hair treatment </span> 
-              <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
-            </li>
-            <li class=" pt-3" data-content=".hair-extension">
-              <span class="pe-2"> hair extension </span> 
-              <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
-            </li>
-            <li class=" pt-3" data-content=".Eye-extension">
-              <span class="pe-2"> Eye extension </span> 
-              <i class="fa-solid fa-angle-down down  arrow arrow-down"></i>
-            </li>
-            <li class=" pt-3" data-content=".Skin-care">
-              <span class="pe-2">  Skin care </span> 
-              <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
-            </li>
-             <li class=" pt-3" data-content=".nail-service">
-              <span class="pe-2"> nail service </span>  
-              <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
-            </li>
-            <li class=" pt-3" data-content=".Spa-massage">
-              <span class="pe-2"> Spa and massage </span>  
-              <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
-            </li>
-           
-          </ul>
-        </div>
-        <div class="slider-two-right col-lg-9 col-md-8 content">
-          <div class="row hair-service">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> Hair services </h4>
-              <p>
-                We have the art of applying trends in hair styling from washing to brushing and hair straightening.
-                hair cutting, coloring and highlighting at very affordable prices. We're committed to
-                perfecting your natural beauty with every visit.
-              </p>
+    <!--#################### start slider two our services ################ -->
+    <div class="slider-two mt-5" id="our-services">
+      <div class="container">
+        <div class="row ps-2 pe-2 slider-two-row">
+          <h2 class="mb-3">our services</h2>
+          <div class="slider-two-left col-lg-3 col-md-4">
+            <ul class="tabs ps-4">
+              <li class="active" data-content=".hair-service ">
+                <span class="pe-2"> Hair Services </span>
+                <i class="fa-solid fa-angle-down arrow arrow-down rotate"></i>
+              </li>
+              <li class="pt-3" data-content=".hair-treatment ">
+                <span class="pe-2"> Hair Treatment </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+              <li class="pt-3" data-content=".hair-extension">
+                <span class="pe-2"> Hair Extension </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+              <li class="pt-3" data-content=".Eye-extension">
+                <span class="pe-2"> Eye Extension </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+              <li class="pt-3" data-content=".Skin-care">
+                <span class="pe-2"> Skin Care </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+              <li class="pt-3" data-content=".nail-service">
+                <span class="pe-2"> nail service </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+              <li class="pt-3" data-content=".Spa-massage">
+                <span class="pe-2"> Spa & Massage </span>
+                <i class="fa-solid fa-angle-down down arrow arrow-down"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="slider-two-right col-lg-9 col-md-8 content">
+            <div class="row hair-service">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Hair Services</h4>
+                <p>
+                  We have the art of applying trends in hair styling from
+                  washing to brushing and hair straightening. hair cutting,
+                  coloring and highlighting at very affordable prices. We're
+                  committed to perfecting your natural beauty with every visit.
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/hair-service.jpg"
+                  alt=" image not found "
+                />
+              </div>
             </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/hair-service.jpg" alt=" image not found ">
+            <div class="row hair-treatment">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Hair Treatment</h4>
+                <p>
+                  The salon hair treatment services include all kinds of
+                  procedures, which work else and effectively, we provide three
+                  types of hair treatments protein ,Argan oil and caviar. And
+                  when it comes to hair treatments we are mentioning the beauty
+                  of OLAPLEX, is it's all safe and hair and making it appear
+                  healthier.
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/hair-treatment.jpg"
+                  alt=" image not found "
+                />
+              </div>
+            </div>
+            <div class="row hair-extension">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Hair Extension</h4>
+                <p>
+                  Adel fares beauty salon is always looking to see the Luxury of
+                  Hair transformations, we have all the types of hair extensions
+                  crystal, ring, micro and double face, we are also providing
+                  hair extension for sale.
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/hair-extentions.jpg"
+                  alt=" image not found "
+                />
+              </div>
+            </div>
+            <div class="row Eye-extension">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Eye Extension</h4>
+                <p>
+                  Add the right quantum of flirtation to brighten your eyes with
+                  Adel Fares Beauty salon eyelash extensions with volume and
+                  perfection.
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/eye-extention1.jpg"
+                  alt=" image not found "
+                />
+              </div>
+            </div>
+            <div class="row Skin-care">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Skin Care</h4>
+                <p>
+                  At Adel Fares Beauty salon, our team have perfected “The Art
+                  of Waxing”. We ’ve streamlined our process to maximize your
+                  comfort, take up lower of your time, and leave you with
+                  smoother, longer- lasting results. So we offer waxing and
+                  sweet for your beautiful full body. As cleansing the skin is
+                  an essential part of any skincare routine we also help you get
+                  cleansing epic sessions!
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/skin-care.jpg"
+                  alt=" image not found "
+                />
+              </div>
+            </div>
+            <div class="row nail-service">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Nail Service</h4>
+                <p>
+                  All kinds of procedures for your hands and feet are here!
+                  Manicure and Pedicure, gel polish, hard gel and nail polish we
+                  also provide nail Installation. We are the perfect place to
+                  get all high-quality nail care services in a clean and
+                  welcoming atmosphere.
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/nail-service.jpg"
+                  alt=" image not found "
+                />
+              </div>
+            </div>
+            <div class="row Spa-massage">
+              <div class="slider-two-right-content col-lg-8">
+                <h4>Spa & Massage</h4>
+                <p>
+                  All relaxation spa and massage in Adel Fares beauty salon it
+                  gives you an unwinding and stimulating atmosphere where you
+                  can enjoy various types of Hammam Aromatic and Moroccan, with
+                  the sense of refreshment and relaxation including steamer, our
+                  salon is working on your relaxing destination
+                </p>
+              </div>
+              <div class="slider-two-right-img col-lg-4">
+                <img
+                  src="./assest/imgs/spa-massage.jpg"
+                  alt=" image not found "
+                />
+              </div>
             </div>
           </div>
-          <div class="row hair-treatment">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> hair treatment </h4>
-              <p>
-                the salon hair treatment services include all kinds of procedures, which work else and effectively,
-                we provide three types of hair treatments protein ,Argan oil and caviar. And when it comes to hair treatments we
-                 are mentioning the beauty of OLAPLEX, is it's all safe and hair and making it appear healthier.
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/hair-treatment.jpg" alt=" image not found ">
-            </div>
-          </div>
-          <div class="row hair-extension">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> hair extension </h4>
-              <p>
-               Adel fares beauty salon is always looking to see the Luxury of Hair transformations,
-                 we have all the types of hair extensions crystal, ring, micro and double face, we are also providing hair extension for sale.
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/hair-extentions.jpg" alt=" image not found ">
-            </div>
-          </div>
-          <div class="row Eye-extension">
-            <div class="slider-two-right-content col-lg-8">
-              <h4>Eye extension </h4>
-              <p>
-                Add the right quantum of flirtation to brighten your eyes with Adel Fares Beauty salon eyelash extensions with volume and perfection.
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/eye-extention1.jpg" alt=" image not found ">
-            </div>
-          </div>
-          <div class="row Skin-care">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> Skin care </h4>
-              <p>
-                  At Adel Fares Beauty salon, our team have perfected “The Art of Waxing”.
-                  We ’ve streamlined our process to maximize your comfort, take up lower of your time, and leave you with smoother, longer- lasting results. So we offer waxing and sweet for your beautiful full body. 
-                  As cleansing the skin is an essential part of any skincare routine we also help you get cleansing epic sessions!
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/skin-care.jpg" alt=" image not found ">
-            </div>
-          </div>
-          <div class="row nail-service">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> nail service </h4>
-              <p>
-                  All kinds of procedures for your hands and feet are here! Manicure and Pedicure, gel polish, hard gel and nail polish we also provide nail Installation.
-                   We are the perfect place to get all high-quality nail care services in a clean and welcoming atmosphere.
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/nail-service.jpg" alt=" image not found ">
-            </div>
-          </div>
-          <div class="row Spa-massage">
-            <div class="slider-two-right-content col-lg-8">
-              <h4> Spa and massage </h4>
-              <p>
-                  All relaxation spa and massage in Adel Fares beauty salon it gives you an unwinding and stimulating atmosphere where you can enjoy various types of Hammam Aromatic and Moroccan,
-                   with the sense of refreshment and relaxation including steamer, our salon is working on your relaxing destination 
-              </p>
-            </div>
-            <div class="slider-two-right-img col-lg-4">
-              <img src="./assest/imgs/spa-massage.jpg" alt=" image not found ">
-            </div>
-          </div>
-          
         </div>
       </div>
     </div>
-   </div>
-   <!--################### end our services ####################### -->
-   
-   <!--##################### start subscribe slider ####################### -->
-   <div class="slider-three-subscribe mt-5" id="contact-us">
-    <div class="container subscribe-content ">
-      <div class="row " >
-        <div class="subscribe-left col-lg-5 col-md-6 col-sm-12">
-          <img src="./assest/imgs/subscribe-imge.png" alt="image not found">
-        </div>
-        <div class="subscribe-right col-lg-7 col-md-6 col-sm-12">
-          <div class="row subscribe-content-left">
-            <div class="top-subscribe col-12">
-              <h4 class="h-one"> subscribe to our  </h4>
-              <h4 class="h-two"> newsletter </h4>
-            </div>
-            <div class="end-subscribe col-12">
+    <!--################### end our services ####################### -->
+
+    <!--##################### start subscribe slider ####################### -->
+    <div class="slider-three-subscribe mt-5" id="contact-us">
+      <div class="container subscribe-content">
+        <div class="row">
+          <div class="subscribe-left col-lg-5 col-md-6 col-sm-12">
+            <img src="./assest/imgs/subscribe-imge.png" alt="image not found" />
+          </div>
+          <div class="subscribe-right col-lg-7 col-md-6 col-sm-12">
+            <div class="row subscribe-content-left">
+              <div class="top-subscribe col-12">
+                <h4 class="h-one">Subscribe to our</h4>
+                <h4 class="h-two">Newsletter</h4>
+              </div>
+              <div class="end-subscribe col-12">
                 <div class="group-input row mb-3">
-                    <input type="email" class="col-8" placeholder="enter your email"  >
-                    <button class="col-4" type="button" > send </button>
+                  <form action="" id="subform">
+                    <input
+                      type="email"
+                      class="col-8"
+                      id="submail"
+                      placeholder="Enter Your Email"
+                    />
+                    <button class="col-4" id="sub-submit" type="submit">
+                      Send
+                    </button>
+                  </form>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <div>
         <ul class="circles4">
           <li><img src="./assest/imgs/1.png" alt="" /></li>
@@ -357,151 +479,178 @@
           <li>CARE</li>
         </ul>
       </div>
-   </div>
-   <!-- ################### end subscribe ##################### -->
-  
-   <!--################### start slider four people views  ###################-->
-  <div class="slider-four-views slide-container swiper mt-5">
-    <div class="slide-content">
-      <div class="card-swiper swiper-wrapper">
-
-        <div class="card swiper-slide">
-          <div class="comma-icon">
-            <i class="fa-solid fa-quote-left"></i>
-          </div>
-          <div class="card-content">
-            <h4 class="name">Hagar Hassan </h4>
-            <p class="description">Adel fares beauty salon is amazing; it’s set in a lovely calm setting & the atmosphere at the salon is lovely. Oh yes and they've every service any woman need</p>
-          </div>
-        <div class="star-icon">
-             <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="comma-icon">
-            <i class="fa-solid fa-quote-left"></i>
-          </div>
-          <div class="card-content">
-            <h4 class="name">Basmala tarek </h4>
-            <p class="description">
-              The energy at Adel fares beauty salon is contagious, I always look forward to my treatments! I would not choose any salon from now on
-            </p>
-          </div>
-         <div class="star-icon">
-             <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="comma-icon">
-            <i class="fa-solid fa-quote-left"></i>
-          </div>
-          <div class="card-content">
-            <h4 class="name">Amira </h4>
-            <p class="description">The first importer in the Middle East for all types of hair extensions .... I would not choose any salon from now on . yes and they've every service any woman need</p>
-          </div>
-          <div class="star-icon">
-             <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="comma-icon">
-            <i class="fa-solid fa-quote-left"></i>
-          </div>
-          <div class="card-content">
-            <h4 class="name"> Yara </h4>
-            <p class="description"> yes and they've every service any woman need , Adel fares beauty salon is amazing; it’s set in a lovely calm setting & the atmosphere at the salon is lovely</p>
-          </div>
-          <div class="star-icon">
-             <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star"></i>
-          <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-          </div>
-         
-        </div>
-
-      </div>
     </div>
+    <!-- ################### end subscribe ##################### -->
+
+    <!--################### start slider four people views  ###################-->
+    <div class="slider-four-views slide-container swiper mt-5">
+      <div class="slide-content">
+        <div class="card-swiper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="comma-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <div class="card-content">
+              <h4 class="name">Hagar Hassan</h4>
+              <p class="description">
+                Adel fares beauty salon is amazing; it’s set in a lovely calm
+                setting & the atmosphere at the salon is lovely. Oh yes and
+                they've every service any woman need
+              </p>
+            </div>
+            <div class="star-icon">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="comma-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <div class="card-content">
+              <h4 class="name">Basmala tarek</h4>
+              <p class="description">
+                The energy at Adel fares beauty salon is contagious, I always
+                look forward to my treatments! I would not choose any salon from
+                now on
+              </p>
+            </div>
+            <div class="star-icon">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="comma-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <div class="card-content">
+              <h4 class="name">Amira</h4>
+              <p class="description">
+                The hair treatment service I had was amazing and satisfactory.
+                It excellently satisfies all of my needs. I'm quite grateful of
+                this place and expect long-term dealing .
+              </p>
+            </div>
+            <div class="star-icon">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="comma-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <div class="card-content">
+              <h4 class="name">Yara</h4>
+              <p class="description">
+                Fantastic service and a nice team I'm eager to get back and see
+                them.I purchased several care products, and they were excellent
+                and reasonably priced.
+              </p>
+            </div>
+            <div class="star-icon">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="swiper-button-next swiper-navBtn"></div>
       <div class="swiper-button-prev swiper-navBtn"></div>
       <div class="swiper-pagination"></div>
-      
-  </div>
-  <hr class="end-birder"> 
-  <!-- ################## end slider slider views ################# -->
-  <div class="slider-five-map mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="map-left col-lg-7 col-md-6 col-sm-12">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d54613.14358741287!2d29.88912443951016!3d31.184098659272895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d31.1612077!2d29.893079!4m3!3m2!1d31.208876099999998!2d29.951825499999998!5e0!3m2!1sen!2seg!4v1674841378905!5m2!1sen!2seg"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <hr class="end-birder" />
+    <!-- ################## end slider slider views ################# -->
+    <div class="slider-five-map mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="map-left col-lg-7 col-md-6 col-sm-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d54613.14358741287!2d29.88912443951016!3d31.184098659272895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d31.1612077!2d29.893079!4m3!3m2!1d31.208876099999998!2d29.951825499999998!5e0!3m2!1sen!2seg!4v1674841378905!5m2!1sen!2seg"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+          </div>
+          <div class="map-right col-lg-5 col-md-6 col-sm-12 row">
+            <div class="top-map col-12">
+              <h4>Address ...</h4>
+              <p>299 Port Said St, Sidi Gabir, Alexandria, Egypt</p>
+            </div>
+            <div class="middle-map col-12">
+              <h4>Email ...</h4>
+              <a href="mailto:adelfaresbeautycenter@gmail.com"
+                >adelfaresbeautycenter@gmail.com</a
+              >
+            </div>
+            <div class="buttom-map col-12">
+              <h4>social media ...</h4>
+              <a href="https://www.facebook.com/adelfaresbeautycenter">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/adelfaresbeautycenter/?fbclid=IwAR1vtaLLA6N7qPgvcfc1SO2eXZX3kB6oohv21iMUYup6clG1T_aE_7uLbQs"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="map-right col-lg-5 col-md-6 col-sm-12 row">
-          <div class="top-map col-12">
-            <h4> Address ... </h4>
-            <p> 299 Port Said St, Sidi Gabir, Alexandria, Egypt </p>
+      </div>
+    </div>
+    <hr class="end-birder hr-fotter" />
+    <!-- ####################### end map ############################ -->
+
+    <!-- ##################### start footer ########################## -->
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="left-footer col-lg-4 col-md-4 col-sm-12">
+            <a href="#home">
+              <img
+                src="./assest/imgs/logo.png"
+                alt="logo not found"
+                width="40"
+                height="45"
+              />
+            </a>
           </div>
-          <div class="middle-map col-12">
-            <h4> Email ... </h4>
-            <a href="mailto:adelfaresbeautycenter@gmail.com" class="email">adelfaresbeautycenter@gmail.com</a>
-            <span class="d-block pt-1"> +02- 0123654895 </span>
+          <div class="middele-footer col-lg-4 col-md-4 col-sm-12">
+            &#169; Adel Fares beauty salon 2023
           </div>
-          <div class="buttom-map col-12">
-            <h4> social media ... </h4>
+          <div class="right-footer col-lg-4 col-md-4 col-sm-12">
             <a href="https://www.facebook.com/adelfaresbeautycenter">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://www.instagram.com/adelfaresbeautycenter/?fbclid=IwAR1vtaLLA6N7qPgvcfc1SO2eXZX3kB6oohv21iMUYup6clG1T_aE_7uLbQs">
+            <a
+              href="https://www.instagram.com/adelfaresbeautycenter/?fbclid=IwAR1vtaLLA6N7qPgvcfc1SO2eXZX3kB6oohv21iMUYup6clG1T_aE_7uLbQs"
+            >
               <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <hr class="end-birder hr-fotter"> 
-  <!-- ####################### end map ############################ -->
-
-  <!-- ##################### start footer ########################## --> 
-  <footer class="mt-5">
-    <div class="container">
-      <div class="row footer-row">
-        <div class="left-footer col-lg-4 col-md-4 col-sm-12">
-          <a href="#home"> 
-            <img src="./assest/imgs/logo.png" alt="logo not found" width="40" height="45">
-          </a>
-        </div>
-        <div class="middele-footer col-lg-4 col-md-4 col-sm-12">
-          	&#169; Adel Fares beauty salon 2023  
-        </div>
-        <div class="right-footer col-lg-4 col-md-4 col-sm-12 " >
-          <a href="https://www.facebook.com/adelfaresbeautycenter">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="https://www.instagram.com/adelfaresbeautycenter/?fbclid=IwAR1vtaLLA6N7qPgvcfc1SO2eXZX3kB6oohv21iMUYup6clG1T_aE_7uLbQs">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+    </footer>
 
     <!-- links animation wow js  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -512,16 +661,19 @@
     </script>
 
     <!-- links bootstarp js  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
-     <!-- link swiper  -->
+    <!-- link swiper  -->
     <script src="./assest/js/swiper-bundle.min.js"></script>
 
     <!-- custom main js file  -->
     <script src="./assest/js/main.js"></script>
-    
-   
-
-   
-</body>
+    <!-- MAIL js file  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assest/js/submail.js"></script>
+  </body>
 </html>
