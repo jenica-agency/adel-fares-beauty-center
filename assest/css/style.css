@@ -633,7 +633,9 @@ footer{
             -ms-transform: rotate(0deg);
             -o-transform: rotate(0deg);
 }
-
+        .group-input{
+            justify-content: center;
+        }
 }
 
 /* animation */
