@@ -36,11 +36,14 @@ body{
 
 .custom-a-nav{
     color:inherit;
-    transition: ease-in 0.3s;
-    -webkit-transition: ease-in 0.3s;
-    -moz-transition: ease-in 0.3s;
-    -ms-transition: ease-in 0.3s;
-    -o-transition: ease-in 0.3s;
+
+}
+.custom-a-nav:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 .custom-phone-icon-nav{
@@ -71,6 +74,9 @@ body{
 .left-cover{
     margin-top: 80px;
 }
+.left-cover {
+    animation-duration: 2s;
+}
 .left-cover .content h4{
     opacity: 0.8;
 }
@@ -93,6 +99,7 @@ body{
 .right-cover {
    text-align: center;
    position: relative;
+   animation-duration: 2s;
 }
 .cover-image
 {
@@ -452,13 +459,25 @@ body{
 }
 .top-map p,
 .middle-map a,
-.buttom-map a {
+.buttom-map a,
+.middle-map span {
     font-family: 'Montserrat', sans-serif;
 }
 .middle-map a,
-.buttom-map a{
+.buttom-map a,
+.middle-map span{
     text-decoration: none;
     color: #413a3a;
+}
+.middle-map a:hover,
+.buttom-map a:hover ,
+.middle-map span:hover
+{
+    color: #e2979d;
+    cursor: pointer;
+}
+.middle-map .email:hover{
+
 }
 .buttom-map a{
     font-size: 25px;
@@ -637,8 +656,13 @@ footer{
             justify-content: center;
         }
 }
+@media screen and (max-width:992px) and (min-width:300px){
+    .custom-phone-icon-nav,
+    .custom-a-nav-phone{
+        display:none;
+    }
+}
 
-/* animation */
 
   
   
