@@ -10,13 +10,13 @@ function changeNavcColor (){
     if(scroll < 500){
         navbar.classList.remove("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo-black.png");
-        // iconBtn.classList.add(".original-btn");
-        // btn.classList.add(".navbar-toggler");
+        iconBtn.classList.add(".original-btn");
+        btn.classList.add(".navbar-toggler");
     }else{
         navbar.classList.add("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo.png");
-        //   iconBtn.classList.add("icon-btn");
-        // btn.classList.add(".nav-btn");
+          iconBtn.classList.add("icon-btn");
+        btn.classList.add(".nav-btn");
        
     }
 }
