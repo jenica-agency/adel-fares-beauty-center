@@ -49,15 +49,12 @@ body{
 .custom-phone-icon-nav{
     color: #13b604;
 }
-.icon-btn{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 243, 234)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
 }
-.original-btn{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.nav-btn{
-    border-color: rgb(255, 243, 234);
+.navbar-toggler{
+    background-color: #fff3ea;
 }
 /********************************************************/
 .sec-cover{
@@ -330,6 +327,8 @@ body{
     background-color: #e2979d;
     color: #fff3ea;
     font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .group-input button:hover{
     transform: scale(1.05);
@@ -482,6 +481,26 @@ body{
 .buttom-map a{
     font-size: 25px;
 }
+.map-right{
+    position:relative;
+}
+.leave-map{
+    position:absolute;
+    width: 72%;
+    top: 4%;
+    left: 60%;
+    transform: rotate(-192deg);
+    -webkit-transform: rotate(-192deg);
+    -moz-transform: rotate(-192deg);
+    -ms-transform: rotate(-192deg);
+    -o-transform: rotate(-192deg);
+}
+.leave1-map,
+.leave2-map,
+.leave3-map,
+.leave4-map{
+    display: none;
+}
 /*****************************************************/
 footer{
     background-color: #e2979d;
@@ -534,6 +553,12 @@ footer{
    .leave-up{
      right: -120px;
    }
+   .leave-map{
+    width: 90%;
+    left: 71%;
+
+   }
+ 
 
 }
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -600,14 +625,19 @@ footer{
         width: 80%;
         margin-top: 10% ;
     }
-        .leave-up {
-            right: -160px;
-            transform: rotate(97deg)        ;
-            -webkit-transform: rotate(97deg)        ;
-            -moz-transform: rotate(97deg)        ;
-            -ms-transform: rotate(97deg)        ;
-            -o-transform: rotate(97deg)        ;
-}
+    .leave-up {
+        right: -160px;
+        transform: rotate(97deg);
+        -webkit-transform: rotate(97deg);
+        -moz-transform: rotate(97deg);
+        -ms-transform: rotate(97deg);
+        -o-transform: rotate(97deg);
+    }
+    .leave-map{
+        width: 81%;
+        left: 77%
+    }
+      
 };
 
 @media screen and (max-width: 768px) {
@@ -661,7 +691,13 @@ footer{
     .custom-a-nav-phone{
         display:none;
     }
+    .leave-map {
+       display: none;
+    }
+   
+
 }
+
 
 
   

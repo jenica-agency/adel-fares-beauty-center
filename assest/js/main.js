@@ -3,20 +3,17 @@
 function changeNavcColor (){
     let navbar = document.querySelector(".custom-nav");
     let logoImg = document.querySelector(".logo-img");
-    let iconBtn = document.querySelector(".navbar-toggler .navbar-toggler-icon");
-    let btn = document.querySelector(".navbar-toggler");
+
     // console.log(logoImg);
     let scroll = window.scrollY;
     if(scroll < 500){
         navbar.classList.remove("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo-black.png");
-        // iconBtn.classList.add(".original-btn");
-        // btn.classList.add(".navbar-toggler");
+       
     }else{
         navbar.classList.add("scroll-nav");
         logoImg.setAttribute("src","./assest/imgs/logo.png");
-          // iconBtn.classList.add("icon-btn");
-        // btn.classList.add(".nav-btn");
+        
        
     }
 }
