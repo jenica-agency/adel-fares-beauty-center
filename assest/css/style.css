@@ -687,8 +687,7 @@ footer{
         }
 }
 @media screen and (max-width:992px) and (min-width:300px){
-    .custom-phone-icon-nav,
-    .custom-a-nav-phone{
+    .center-gmail{
         display:none;
     }
     .leave-map {
